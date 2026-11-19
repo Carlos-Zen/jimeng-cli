@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<style>
+  body { font: 13px/1.5 system-ui, "Microsoft YaHei", sans-serif; width: 260px; margin: 12px; color: #111; }
+  h1 { font-size: 14px; margin: 0 0 8px; }
+  .dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: #9ca3af; margin-right: 6px; }
+  .on .dot { background: #16a34a; }
+  .row { margin: 6px 0; }
+  input { width: 70px; }
+  .muted { color: #6b7280; font-size: 12px; }
+  code { background: #f3f4f6; padding: 0 3px; border-radius: 3px; }
+</style>
+</head>
+<body>
+<h1>jimeng-cli</h1>
+<div class="row" id="st"><span class="dot"></span><span id="txt">检查中…</span></div>
+<div class="row">端口 <input id="port" type="number" min="1" max="65535"> <button id="save">保存</button> <button id="re">重连</button></div>
+<div class="row muted">未连接时：在终端运行 <code>jimeng doctor</code>（会自动启动本地服务）。</div>
+<div class="row muted" id="ver"></div>
+<script src="popup.js"></script>
+</body>
+</html>

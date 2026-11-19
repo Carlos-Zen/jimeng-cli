@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "jimeng-cli Browser Bridge",
+  "version": "0.1.1",
+  "description": "让 jimeng-cli 命令行驱动你已登录的即梦网页（jimeng.jianying.com）：上传素材、填写提示词、提交生成、查询结果。仅连接本机 127.0.0.1。",
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2u9Y96RWydjEBdnnKy5Q/mV1gRA+S/VzpXLR+NyZYSWjDvBVKy1wSUPvNgZ2f6TAFHxYzw6R0AbirTlBFoYhhFBpiK4etCHzct3RK8nt07HVPtJ5Yn4ZUZ99QuJvtltNpgkOqKMD8Uep6deUwm2KK8FlPUL/OAYz7ySgerdxUAQuHabGOBA8laL6QZ4OVAP3CTvHj4rr9dbaDOxdRLGsi84pXg3Rs3YNGJcRxLXWDvlDtj/PdGIIWguX7rgRHkcO31o0HCNvrgTuLzMIB5PUPtccM48wTXVAMcn1ieCKFFtaX4s01ICOBapnRbtceViRnjzhq0xtb72awrDHi61YNQIDAQAB",
+  "minimum_chrome_version": "116",
+  "permissions": ["debugger", "tabs", "alarms", "storage"],
+  "background": { "service_worker": "background.js", "type": "module" },
+  "action": { "default_title": "jimeng-cli", "default_popup": "popup.html" }
+}

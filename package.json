@@ -1,0 +1,40 @@
+{
+  "name": "@carlos-zen/jimeng-cli",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "即梦AI（jimeng.jianying.com）命令行：驱动已登录的网页完成图片/视频生成（上传素材、@引用、提交、下载），本地素材库，ArcReel 等工具的 API 桥接。自带 Chrome 扩展，无需 opencli。",
+  "bin": {
+    "jimeng": "bin/jimeng.js"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "extension/",
+    "arcreel/",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=20.10"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Carlos-Zen/jimeng-cli.git"
+  },
+  "keywords": [
+    "jimeng",
+    "即梦",
+    "dreamina",
+    "seedance",
+    "seedream",
+    "video",
+    "image",
+    "cli",
+    "chrome-extension"
+  ]
+}
