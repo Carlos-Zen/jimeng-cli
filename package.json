@@ -11,7 +11,8 @@
     "src/",
     "extension/",
     "arcreel/",
-    "README.md"
+    "README.md",
+    "LICENSE"
   ],
   "engines": {
     "node": ">=20.10"
@@ -36,5 +37,6 @@
     "image",
     "cli",
     "chrome-extension"
-  ]
+  ],
+  "license": "MIT"
 }

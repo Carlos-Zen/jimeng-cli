@@ -222,3 +222,7 @@ jimeng bridge arcreel --arcreel-env <ArcReel 的 deploy/.env>   # 从 .env 读�
 - 浏览器顶部会显示「jimeng-cli Browser Bridge 已开始调试此浏览器」提示条，这是 Chrome 对 `chrome.debugger` 的固定提示，命令结束后消失。
 - `video_url` 是带签名的临时链接，请及时用 `--output` 或 `status --output` 下载。
 
+
+## License
+
+MIT
